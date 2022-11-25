@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    /*
+    
     public float speed = 4f;
     private Vector2 direction;
     private Rigidbody2D rb;
@@ -24,8 +24,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
     }
-    */
-
+    
+    /*
     private Rigidbody2D rb;
     public float baseSpeed = 4f;
     public float sprint = 9f;
@@ -58,4 +58,5 @@ public class PlayerMovement : MonoBehaviour
         //rb.MovePosition(rb.position + direction * currentSpeed * Time.fixedDeltaTime);
         //rb.MovePosition(rb.position + direction * baseSpeed * currentSpeed * Time.fixedDeltaTime);
     }
+    */
 }
