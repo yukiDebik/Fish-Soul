@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 76948086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.527, y: -3.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -264,7 +264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 543374875}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.005, y: -3.559, z: 0.07487531}
+  m_LocalPosition: {x: -1.005, y: -3.536, z: 0.07487531}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -533,6 +533,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1748250328}
+  - component: {fileID: 1748250329}
   m_Layer: 0
   m_Name: FishingMinigame
   m_TagString: Untagged
@@ -563,6 +564,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1748250329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748250327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0244398aea977f34eb203145b7623e2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBounds: {fileID: 1776873047}
+  bottomBounds: {fileID: 543374876}
+  fish: {fileID: 1274317047}
+  smoothMotion: 3
+  fishTimeRandomizer: 3
+  hook: {fileID: 2118422747}
+  hookSize: 0.15
+  hookSpeed: 0.1
+  hookGravity: 0.05
+  progressBarContainer: {fileID: 76948087}
+  hookPower: 0.5
+  progressBarDecay: 0.1
 --- !u!1 &1776873046
 GameObject:
   m_ObjectHideFlags: 0
@@ -695,7 +720,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2008813802
 Transform:
   m_ObjectHideFlags: 0
@@ -704,7 +729,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2008813801}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5630001, y: -0.56, z: -0.032439467}
+  m_LocalPosition: {x: 0.031, y: 3.01, z: 0}
   m_LocalScale: {x: 1, y: 6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -751,7 +776,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
     type: 3}
   m_Color: {r: 0.29803923, g: 0.74509805, b: 0.16862746, a: 1}
@@ -789,7 +814,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2118422746}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.973, y: -2.526, z: -0.032439467}
+  m_LocalPosition: {x: -0.969, y: -2.526, z: -0.032439467}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
