@@ -10,8 +10,8 @@ public class FishingMinigame : MonoBehaviour
 
     [Header("Fish Settings")]
     [SerializeField] Transform fish;
-    [SerializeField] float smoothMotion = 3f;
-    [SerializeField] float fishTimeRandomizer = 3f;
+    [SerializeField] float smoothMotion = 5f;
+    [SerializeField] float fishTimeRandomizer = 5f;
     float fishPosition;
     float fishSpeed;
     float fishTimer;
@@ -33,7 +33,7 @@ public class FishingMinigame : MonoBehaviour
 
     private void Start()
     {
-        catchProgress = .3f;
+        catchProgress = .1f;
     }
 
     private void FixedUpdate()
