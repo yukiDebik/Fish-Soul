@@ -15,6 +15,7 @@ public class TriggerFishing : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         Debug.Log("You embroidered from the fishing zone.");
+        SceneManager.LoadScene("LevelOne", LoadSceneMode.Single);
     }
 
 }
