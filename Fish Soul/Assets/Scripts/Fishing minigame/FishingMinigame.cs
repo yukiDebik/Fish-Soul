@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class FishingMinigame : MonoBehaviour
@@ -60,6 +61,9 @@ public class FishingMinigame : MonoBehaviour
             {
                 //Won the game
                 Debug.Log("You win!");
+                SceneManager.UnloadSceneAsync("FishingMinigame");
+
+                PlayerMovement.moveSpeed = 5f;
                 //Do win logic here
             }
         }
@@ -70,6 +74,9 @@ public class FishingMinigame : MonoBehaviour
             {
                 //You lose
                 Debug.Log("You lose!");
+                SceneManager.UnloadSceneAsync("FishingMinigame");
+
+                PlayerMovement.moveSpeed = 5f;
                 //Lose logic here
             }
         }
