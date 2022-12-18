@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FishingMinigame.unity
     guid: 1c90335cf1bd51e46b0f40547d3ece03
+  - enabled: 1
+    path: Assets/Scenes/OptionsMenu.unity
+    guid: 315f7adb3a0dadb41b33a76deddb2bd3
   m_configObjects: {}
